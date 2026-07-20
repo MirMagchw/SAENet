@@ -4,8 +4,9 @@ Abstract-Distributed microphone array (DMA) or so-called wireless acoustic senso
 ![https://github.com/MirMagchw/SAENet/blob/main/SyncNet/SyncNet.jpg](https://github.com/MirMagchw/SAENet/blob/main/SyncNet/SyncNet.jpg)
 # SAENet
 ![https://github.com/MirMagchw/SAENet/edit/main/SAENet/SAENet.jpg](https://github.com/MirMagchw/SAENet/blob/main/SAENet/SAENet.jpg)
-'''bash
+Packages:
+```bash
 torch                    2.4.1+cu118
 torchaudio               2.4.1+cu118
 torchvision              0.19.1+cu118
-'''
+```
