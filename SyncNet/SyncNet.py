@@ -47,7 +47,7 @@ class DSConv2d(nn.Module):
         self.pointwise = nn.Conv2d(in_ch, out_ch, kernel_size=1)
 
     def forward(self, x):
-        x = F.pad(x, (self.pad_left, 0, self.pad_freq, self.pad_freq))
+        x = F.pad(x, (self.pad_left, 0, self.pad_freq, self.pad_freq)) # only padding time_left
         return self.pointwise(self.depthwise(x))
 
 # =========================
