@@ -14,7 +14,7 @@ class LearnableSigmoid(nn.Module):
 
     def forward(self, x):
         return self.beta * torch.sigmoid(self.slope * x)
-
+### GAN ###
 class Discriminator(nn.Module):
     def __init__(self, ndf=16, in_channel=2):
         super().__init__()
