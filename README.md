@@ -5,3 +5,5 @@ torch                    2.4.1+cu118
 torchaudio               2.4.1+cu118
 torchvision              0.19.1+cu118
 ```
+# Test platform
+  Intel Xeon Gold 6142 CPU & NVIDIA GeForce RTX4080 GPU
