@@ -1,4 +1,4 @@
-# The model code of SyncNet and SAENet
+# The model code for SyncNet and SAENet
 # Packages:
 ```bash
 torch                    2.4.1+cu118
